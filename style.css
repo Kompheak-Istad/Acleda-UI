@@ -1,0 +1,181 @@
+* {
+    font-family: "Kantumruy Pro", sans-serif;
+    font-size: x-large;
+}
+
+.greeting {
+    font-size: 36px;
+}
+
+.label,
+p {
+    font-size: 22px;
+}
+
+main {
+    background-color: #173454;
+    color: white;
+    width: 550px;
+    height: 870px;
+    padding: 30px;
+    border-radius: 18px;
+    margin: auto;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-heading {
+    margin-top: 30px;
+    gap: 30px;
+    display: flex;
+}
+
+.btn {
+    background-color: #e15a7b;
+    color: white;
+    /* font-weight: bolder; */
+    font-size: 33px;
+    padding: 15px 13px 15px 12px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 50%;
+}
+
+.user-info {
+    display: flex;
+    margin-top: 21px;
+    gap: 15px;
+}
+
+.username {
+    display: inline;
+    margin-top: 21px;
+    line-height: 8px;
+}
+
+.acc-detail {
+    background-color: #122a44;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 111px;
+    margin-top: 27px;
+    border: 2px solid #1abbff;
+    border-radius: 18px;
+    padding: 30px;
+}
+
+.acc-circle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    line-height: 36px;
+}
+
+#pie-chart {
+    height: 111px;
+    width: 111px;
+    border: 8px solid;
+    border-radius: 50%;
+    border-color: #cd9f2f #1abbff #1abbff #1abbff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.acc-label{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.acc-balance {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+
+.balance {
+    display: flex;
+    flex-direction: column;
+    align-self: end;
+}
+
+.khr, .usd{
+    display: flex;
+    flex-direction: row;
+    align-self: end;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.label-khr{
+    color: #cd9f2f;
+    font-size: 36px;
+}
+
+.label-usd{
+    color: #1abbff
+}
+
+.label-num{
+    color: lightgray;
+    font-size: 36px;
+    font-weight: bold;
+    filter: blur(8px);
+    margin: o;
+    margin-left: 5px;
+}
+
+.container-inline {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.menu-item-inline {
+    background-color: #122a44;
+    width: 200px;
+    height: 30px;
+    margin-top: 20px;
+    padding: 30px;
+    border: 2px solid #1abbff;
+    border-radius: 18px;
+
+}
+
+.container-flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.menu-item-flex1, .menu-item-flex2 {
+    background-color: #122a44;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 165px;
+    height: 165px;
+    margin-top: 18px;
+    border: 2px solid #1abbff;
+    border-radius: 18px;
+    line-height: 111px;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 65px
+}
