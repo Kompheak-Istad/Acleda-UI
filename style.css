@@ -4,7 +4,7 @@
 }
 
 .greeting {
-    font-size: 36px;
+    font-size: 31px;
 }
 
 .label,
@@ -34,11 +34,10 @@ main {
 }
 
 .btn {
-    background-color: #e15a7b;
+    background-color: red;
     color: white;
-    /* font-weight: bolder; */
     font-size: 33px;
-    padding: 15px 13px 15px 12px;
+    padding: 15px;
     margin-top: 5px;
     border: none;
     border-radius: 50%;
@@ -53,7 +52,7 @@ main {
 .username {
     display: inline;
     margin-top: 21px;
-    line-height: 8px;
+    line-height: 11px;
 }
 
 .acc-detail {
@@ -63,7 +62,7 @@ main {
     justify-content: space-between;
     align-items: center;
     height: 111px;
-    margin-top: 27px;
+    margin-top: 18px;
     border: 2px solid #1abbff;
     border-radius: 18px;
     padding: 30px;
@@ -111,15 +110,13 @@ main {
 .khr, .usd{
     display: flex;
     flex-direction: row;
-    align-self: end;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
+    justify-content: end;
 }
 
 .label-khr{
     color: #cd9f2f;
-    font-size: 36px;
+    font-size: 27px;
+    font-weight: bold;
 }
 
 .label-usd{
@@ -128,11 +125,16 @@ main {
 
 .label-num{
     color: lightgray;
-    font-size: 36px;
-    font-weight: bold;
-    filter: blur(8px);
+    font-size: 27px;
     margin: o;
-    margin-left: 5px;
+    margin-right: 5px;
+    filter: blur(8px);
+}
+
+.hide{
+    background-color: #173454;
+    padding: 0px 5px 0px 5px;
+    border-radius: 50%;
 }
 
 .container-inline {
@@ -140,6 +142,12 @@ main {
     flex-direction: row;
     align-content: center;
     justify-content: space-between;
+}
+
+.container-inline :hover {
+    transform: scale(0.98);
+    transition: 0.1s;
+    opacity: 0.8;
 }
 
 .menu-item-inline {
@@ -150,7 +158,6 @@ main {
     padding: 30px;
     border: 2px solid #1abbff;
     border-radius: 18px;
-
 }
 
 .container-flex {
@@ -158,6 +165,12 @@ main {
     flex-wrap: wrap;
     align-content: center;
     justify-content: space-between;
+}
+
+.container-flex  :hover {
+    transform: scale(0.98);
+    transition: 0.1s;
+    opacity: 0.8;
 }
 
 .menu-item-flex1, .menu-item-flex2 {
